@@ -1,0 +1,10 @@
+-To install support for Chaos Polarity-
+
+Copy and drop the included files (excluding this instruction text file!) to your installation of Chaos Polarity.
+
+
+
+-To remove support for Chaos Polarity-
+
+Delete "misc.hmm" and "mod.ini" from the installation of Chaos Polarity. Rename "misc_original.hmm.bak" to "misc.hmm", and
+"mod_original.ini.bak" to "mod.ini".

@@ -1,0 +1,65 @@
+{
+   "Groups":[
+    {
+        "Name":"Main",
+        "DisplayName":"Configuration",
+        "Elements":[
+        {
+          "Name":"IncludeDir1",
+          "DisplayName":"Blood Configuration",
+          "Description":["Toggles the blood on Hysteria Voltra."],
+          "Type":"HysteriaVoltraConfig",
+          "MinValue":null,
+          "MaxValue":null,
+          "DefaultValue":"Voltra_BloodOff"
+	      },
+        {
+          "Name":"IncludeDir2",
+          "DisplayName":"Boss Cutscene Configuration",
+          "Description":["This setting changes the boss cutscenes. \nSwaps between BOI's Boss Cutscenes, or Beta Super Transformation."],
+          "Type":"CutsceneConfig",
+          "MinValue":null,
+          "MaxValue":null,
+          "DefaultValue":"BossCutscene_BST"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "HysteriaVoltraConfig": [
+      {
+        "DisplayName": "Blood On",
+        "Value": "Voltra_BloodOn",
+        "Description": ["Hysteria Voltra will have blood on her body."]
+      },
+      {
+        "DisplayName": "Blood Off",
+        "Value": "Voltra_BloodOff",
+        "Description": ["Hysteria Voltra won't have any blood on her. \nAdded for those who are sensitive to blood!" ]
+      }
+    ],
+    "CutsceneConfig":[
+      {
+        "DisplayName": "BOI's Boss Cutscenes",
+        "Value":"BossCutscene_BOI",
+        "Description": ["Provides unique transformation animations before fighting each Titan."]
+      },
+      {
+        "DisplayName": "Beta Super Transformation",
+        "Value":"BossCutscene_BST",
+        "Description": ["This option gives a more powerful-feeling when Voltra transforms."]
+      },
+      {
+        "DisplayName": "Beta Super Transformation + BOI's Boss Cutscenes",
+        "Value":"BossCutscene_BST_BOI",
+        "Description": ["Combines BOI's Boss Cutscenes with Beta Super Transformation."]
+      },
+      {
+        "DisplayName": "Cutscene Changes OFF",
+        "Value":"BossCutscene_OFF",
+        "Description": ["Keeps the original cutscenes."]
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}

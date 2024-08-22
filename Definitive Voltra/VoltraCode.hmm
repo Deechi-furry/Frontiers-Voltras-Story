@@ -1,0 +1,413 @@
+Patch "Voltra Text Replacements: Master Trials" by "ButterDee"
+//
+    #lib "Converse"
+//
+/* The code here is for replacing the Master Trial dialogue
+Use "\n" to print a line break.
+Pre-Trial Tutorial Text: Converse.Redirect("tu1000dlc_", ""); */
+{
+    /* Dragon's Trial (DeadBolt1303)*/
+
+    Converse.Redirect("ev1600_010", "i loved my yuri doki doki literature club. more than my own life,  more than anything. \ni happily gave everything to protect my yuri from my copy of doki doki literature club for the personal computer");
+    Converse.Redirect("ev1600_020", "oi you little twat - you broke my ddlc copy - what was that for!? i'm gonna kick your arse in!");
+    
+    Converse.Redirect("tu1000dlc_200", "-Hatsune Kocichu- \nDeadBolt1303's Trial");
+    Converse.Redirect("tu1000dlc_205", "Defeat all of the enemies within the time limit to conquer this trial. \n   -Voltra's stats will be fixed \n   -Defeat 5 SOLDIERs");
+
+    Converse.Redirect("ev1610_010", "oh ok so i see so u were just a little petty prick that wanted to show off infront of everyone for 'their sake'");
+    Converse.Redirect("ev1610_020", "Listen up jackal. You got more towers to do. Now take this inverted curse and get me a new ddlc copy");
+
+    /* Snake's Trial (Hweilla)*/
+    
+
+    Converse.Redirect("ev1620_010", "No way is that the most beautiful gorgeous amazing \ncharacter made in the whole planet, Voltra?" );
+    Converse.Redirect("ev1620_020", "Sorry but I'm obligated to force you to complete \nthis really irritating trial.");
+    
+    
+    Converse.Redirect("tu1000dlc_210", "-The Designer- \nHweilla's Trial");
+    Converse.Redirect("tu1000dlc_215", "Defeat all of the enemies within the time limit to conquer this trial. \n   -Voltra's stats will be fixed \n   -The Cyloop and Parry are the only available skills \n   -Destroy 4 SHELLs");
+    
+    Converse.Redirect("ev1630_010", "Just think about it a little. \nWhen supercharged, you'd still be piss yellow if it wasn't for me.");
+    Converse.Redirect("ev1630_020", "Anyway, come over here and kiss me on my hot mouth. \nI'm feeling romantical.");
+    
+
+    /* Tiger's Trial (Sclopeta)*/
+    
+
+    Converse.Redirect("ev1640_010", "[. . .] \nYou GOTTA play ULTRAKILL \nWait where the FUCK am I?");
+    Converse.Redirect("ev1640_020", "[. . !] \nCirmcle");
+
+    Converse.Redirect("tu1000dlc_220", "-The Son of God- \nSclopeta's Trial");
+    Converse.Redirect("tu1000dlc_225", "Defeat all of the enemies within the time limit to conquer this trial. \n   -Voltra's stats will be fixed \n   -The Cyloop and Parry are the only available skills \n   -Cirmcle");
+
+    Converse.Redirect("ev1650_010", "[. . ?] \nDid you know that there are hot milfs in my area~? \nSo get out, I HAVE to get ready");
+    Converse.Redirect("ev1650_020", "[! ! !] \ngl with Zackachinos Trial, prepare to fucking die a lot");
+
+    /* Crane's Trial (ButterDee)*/
+    
+
+    Converse.Redirect("ev1660_030", "I wasn't piloting that Titan, what are you on about, Voltra the Jackal? \nEither way, it doesn't matter, Sonic the Hedgehog 4 Episode 1 is probably better than \nwhatever you're talking about! Hehe~");
+    Converse.Redirect("ev1660_040", "Jokes aside, my name's Deechi... Wait, why am I a Koco..? Eh, anyways. \nSo, I've heard you want to save this world? Your desire is quite ambitious~... \nWell then...");
+    Converse.Redirect("ev1660_050", "Go ahead and duel this hyperspeed Ninja that SEGA thought was a good idea. Let's see what you're made of.");
+
+    Converse.Redirect("tu1000dlc_230", "-\"ButterDee, dee with the butter, I put butter on the waddle dee\"- \nButterDee's Trial");
+    Converse.Redirect("tu1000dlc_235", "Defeat the enemy within the time limit to conquer this trial. \n   -Voltra's stats will be fixed \n   -\"Hey uhh... I'd suggest using the Alternate Trials addon for this fight, since otherwise, this battle is kinda pathetic...\" - Deechi");
+
+    Converse.Redirect("ev1670_010", "Congrats, you beat up the hyperspeed trash can and disposed of it. It's unfortunate that the base game trial is so pathetic.");
+    Converse.Redirect("ev1670_015", "But that... doesn't really matter, I guess. I'd be a bit more impressed if you used the Alternate Trials addon, and would likely have more to say. \nDesires aside...");
+    Converse.Redirect("ev1670_020", "I reached out to Snackpigeon, and offered my help with this mod. \nHonestly, I never thought we'd get this far, having custom particle effects, texturing your Super Form, \nand even rallying others to help. Those Koco you saw are great contributors to this mod, and they made the designs for their Koco!");
+    Converse.Redirect("ev1670_025", "With this trial completed, I offer you a blessing I've been given from Master Crane. \nCarry the flame with our thanks, our hope, our desires. You're this world's hero now. \nBe proud of what you have done.");
+    Converse.Redirect("ev1670_030", "The four of us will watch your future journeys, whether it's live streams from Snackpigeon, our Koco forms, or even other games you get put in. \nWe wish you the best of luck wherever you go, Voltra the Jackal.");
+    
+}
+/*
+Patch "Voltra Text Replacements: Master King Koco's Trial" by "ButterDee"
+//
+    #lib "Converse"
+//
+/* This code is for the Master King Koco, due to a lot more lines being put into here. */
+/* Master King Koco's Trial (Snackpigeon)*/
+{
+    /*
+    Converse.Redirect("ev1750_001", "Placeholder_MasterKingTrialStart_1");
+    Converse.Redirect("ev1750_003", "Placeholder_MasterKingTrialStart_2");
+    Converse.Redirect("ev1750_005", "Placeholder_MasterKingTrialStart_3");
+    Converse.Redirect("ev1750_010", "Placeholder_MasterKingTrialStart_4_Voltra");
+    Converse.Redirect("ev1750_007", "Placeholder_MasterKingTrialStart_5");
+    Converse.Redirect("ev1750_012", "Placeholder_MasterKingTrialStart_6");
+    Converse.Redirect("ev1750_014", "Placeholder_MasterKingTrialStart_7");
+    Converse.Redirect("ev1750_016", "Placeholder_MasterKingTrialStart_8");
+    Converse.Redirect("ev1750_018", "Placeholder_MasterKingTrialStart_9");
+    Converse.Redirect("ev1750_020", "Placeholder_MasterKingTrialStart_10_Voltra");
+    Converse.Redirect("ev1750_025", "Placeholder_MasterKingTrialStart_11_NoFuckOff");
+    Converse.Redirect("ev1750_030", "Placeholder_MasterKingTrialStart_12_Voltra");
+    Converse.Redirect("ev1750_040", "Placeholder_MasterKingTrialStart_13");
+    Converse.Redirect("ev1750_050", "Placeholder_MasterKingTrialStart_14_Silence");
+    Converse.Redirect("ev1750_060", "Placeholder_MasterKingTrialStart_15");
+    */
+    
+    Converse.Redirect("tu1000dlc_240", "-The Master- \nSnackpigeon's Trial");
+    
+    Converse.Redirect("tu1000dlc_245", "Conquer all of the Titans once more and emerge victorious. \n   -Voltra's stats will be fixed \n   -Rings are unavailable \n   -Perfect Parry will be the only way to parry attacks");
+    /*
+    Converse.Redirect("ev1760_010", "Placeholder_MasterKingTrialClear_1_Voltra");
+    Converse.Redirect("ev1760_012", "Placeholder_MasterKingTrialClear_2");
+    Converse.Redirect("ev1760_014", "Placeholder_MasterKingTrialClear_3");
+    Converse.Redirect("ev1760_020", "Placeholder_MasterKingTrialClear_4_Voltra");
+    Converse.Redirect("ev1760_022", "Placeholder_MasterKingTrialClear_5");
+    Converse.Redirect("ev1760_024", "Placeholder_MasterKingTrialClear_6");
+    */
+}
+Patch "Voltra Caption Replacements: Main Story" by "Sclopeta & ButterDee"
+//
+    #lib "Converse"
+//
+/*Thank you Sclopeta for doing the caption replacements in XML! Code Conversion by ButterDee :3 */
+/* Converse Redirection Template: Converse.Redirect("", ""); */
+{
+
+    /* Kronos Island - Main Story  */
+
+    Converse.Redirect("ev1010_070", "“Key” huh? Sure beats being called a “pooch.” Are you saying I can rescue my friends?");
+    Converse.Redirect("ev1030_010", "Voltra! Are you all right?");
+    Converse.Redirect("ev1070_005", "Voltra! Over here!");
+    Converse.Redirect("ev1080_040", "Voltra, they act like none of that happened.");
+    Converse.Redirect("ev1090_050", "What is wrong with you!? Voltra would never endanger anyone! She's even going to help this Koco reunite with their one true love!");
+    Converse.Redirect("ev1120_010", "Keep tabs on the jackal. I want constant updates!");
+    Converse.Redirect("qu1510_010", "You did it, Voltra! I'm sensing the Titan up ahead. This is it! The big showdown!");
+
+    /* Ares Island - Main Story */
+
+    Converse.Redirect("ev2060_110", "You're too trusting, Voltra.");
+    Converse.Redirect("ev2080_050", "She is aware of what the Koco are, isn't she? Why does she try to help them when their fate is already decided?");
+    Converse.Redirect("ev2110_010", "I can confirm Voltra has made multiple breaches into Cyber Space and escaped.");
+    Converse.Redirect("ev2110_030", "You speak of her with respect as often as you curse her. I do not understand.");
+    Converse.Redirect("ev2110_040", "Oh, I hate that jackal. But that doesn't change the fact that she is a formidable adversary. I respect her, but I don't have to like her.");
+    Converse.Redirect("ev2110_050", "Your genius. Her skill. If only you two could work together…");
+    Converse.Redirect("ev2130_030", "Voltra this... this looks like ruins from back home. What if the people of these islands survived and resettled on Angel Island?");
+    Converse.Redirect("ev2130_100", "Thank you, Voltra.");
+    Converse.Redirect("ev2140_110", "She helps those she is at odds with. She is quick to make peace.");
+    Converse.Redirect("qu2600_010", "Voltra! Check these out.");
+    Converse.Redirect("qu2600_050", "Wait, Voltra. You're still missing a Chaos Emerald, aren't you? That thing will tear you to shreds.");
+
+    /* Chaos Island - Main Story */
+
+    Converse.Redirect("ev_3030_010", "Voltra!");
+    /* SEGA... why is there two of the same exact line. Why did ya have to do this to me. T~T */
+    /* (Marking this as unused)Converse.Redirect("ev3030_121", "She's even enduring the cyber corruption better than I calculated she would."); */
+    Converse.Redirect("ev3030_121", "She's even enduring the cyber corruption better than I calculated she would.");
+    Converse.Redirect("ev3100_040", "Miles Prower. You have known Voltra most of your life.");
+    Converse.Redirect("ev3100_060", "Your imprisonment within Cyber Space. The defeat of the Ancients' Titans. \nDo you trust how she is handling it? With your life?");
+    Converse.Redirect("ev3100_070", "Of course! I'll admit she isn't perfect, but Voltra has overcome impossible odds over and over again. \nI know she'll save us all.");
+    Converse.Redirect("ev3100_080", "So you're saying you have faith in her?");
+    Converse.Redirect("ev3100_110", "The feelings she inspires in you and the others… is that a facet of being alive?");
+    Converse.Redirect("ev3110_030", "After reviewing your entire campaign history, \nI have found the most optimal course of action is to… create an alliance with Voltra.");
+    Converse.Redirect("ev3140_010", "Voltra… am I a burden to you?");
+    Converse.Redirect("ev3170_050", "Voltra?");
+    Converse.Redirect("qu3500_050", "Hey, Voltra! I found a remote control panel. \nIt's still online!");
+
+    /* Ouranos Island - Main Story */
+    /* The amount of text in the Ouranos Island Intro compared to the Main Story is uncanny. */
+
+    Converse.Redirect("ev5010_010", "Oh… Voltra, no…");
+    Converse.Redirect("ev5010_020", "What happened to her?");
+    Converse.Redirect("ev5010_030", "She took on so much cyber-energy. It corrupted her.");
+    Converse.Redirect("ev5010_050", "She's stuck between realities.");
+    Converse.Redirect("ev5010_060", "KEKW");
+    Converse.Redirect("ev5010_070", "My only regret is you denied me the pleasure of finishing you off, pooch!");
+    Converse.Redirect("ev5010_160", "No. Voltra worked too hard for us to give up now. \nThose visions we saw… we can drive back the corruption and bring her back.");
+    Converse.Redirect("ev5010_170", "Anything for Voltra!");
+    Converse.Redirect("ev5010_190", "Voltra! I want you to see the hero I become!");
+    Converse.Redirect("ev5010_200", "Voltra! You still have love to share with this world too!");
+    Converse.Redirect("ev5010_210", "Voltra! We're even after this, ha!");
+    Converse.Redirect("ev5010_230", "Oh good. She's back.");
+    Converse.Redirect("ev5010_240", "This is our chance! I never simulated a scenario where Voltra helped since you never authorized it.");
+    Converse.Redirect("ev5010_280", "Voltra! I here-by induct you into the Eggman Empire and order you to save us all! Understand? This is not an alliance!");
+    Converse.Redirect("ev5010_310", "Sage, you will help me find the Chaos Emeralds. Voltra won't be fast enough.");
+
+    /*Putting a lil comment here, to help with organization.*/
+
+    Converse.Redirect("ev5020_020", "Voltra!");
+    Converse.Redirect("ev5030_020", "All we did was chase it out of its shell. It's retreating into space to regain its true form. \nEven Supercharged Voltra won't be able to stop it. I know what I must do. I must… leave you.");
+    Converse.Redirect("ev5030_050", "You first!")
+
+    /* Ouranos Island: The Final Horizon - Main Story */
+
+    Converse.Redirect("ev1510_010", "Hold it, Jackal!");
+    Converse.Redirect("ev1520_020", "Voltra? What's going on?");
+    Converse.Redirect("ev1540_005", "Ah, my kind-hearted friend of Voltra. \nYou have lead our people to the Digital Dream. We thank you.");
+    Converse.Redirect("ev1580_020", "No! We've got to find a way back into the system! \nVoltra is counting on us!");
+    Converse.Redirect("ev1700_010", "This... this is what Voltra was suffering from...");
+    Converse.Redirect("ev1710_030", "Then ask for help. Heck, even Voltra asked us to pick up her slack this time. \nWhat do you need me to do?");
+    Converse.Redirect("ev1720_030", "Oh no you don't. Voltra handled four islands of this mess. \nI'm not going down to just one.");
+    Converse.Redirect("ev1730_020", "This... is what Voltra was dealing with this whole time. \nI knew she was sick, but I never realized it was like this.");
+    Converse.Redirect("ev1730_030", "If I'm going to be at her side, then I need to keep at her pace! \nI won't let this stop me!");
+    Converse.Redirect("ev1740_010", "You never stood a chance against Voltra. \nNow you're up against all four of us. \nYou should've quit while you were behind.");
+    Converse.Redirect("ev1780_080", "Voltra! It's now or never!");
+    Converse.Redirect("ev1780_100", "Look! There she is!");
+}
+
+Patch "Voltra Caption Replacements: Fishing" by "Sclopeta & ButterDee"
+//
+    #lib "Converse"
+//
+{
+    Converse.Redirect("fi0010_010", "Oh, hey Voltra! \nYou came here to fish, too?");
+    Converse.Redirect("fi0020_010", "Hey, you've got a bite. \nVoltra, I'll leave it to you to pull it up.");
+    Converse.Redirect("fi0020_060", "Nice catch, Voltra! I'll trade you a token for any fish you catch.");
+    Converse.Redirect("fi1000_010", "Hey, Voltra! \nWelcome back.");
+}
+
+Patch "Voltra Caption Replacements: Koco" by "Sclopeta & ButterDee"
+//
+    #lib "Converse"
+//
+{
+    Converse.Redirect("ko1010_020", "The name's Voltra, and that says it all. You don't seem like the rest of these little mask guys.");
+    Converse.Redirect("ko1010_070", "Voltra, may I ask you to return my charges to me?");
+    Converse.Redirect("ko1100_010", "Hello again, Voltra.");
+    Converse.Redirect("ko1100_040", "Welcome back, my dear Koco! \nThank you, Voltra. Shall I grant you more power?");
+    Converse.Redirect("ko1100_050", "I've done all I can, and still you bring back more Koco home? \nYou're a true hero, Voltra, and you have my deepest thanks.");
+    Converse.Redirect("ko1300_060", "Farewell, Voltra. Take care of yourself, and my dear Koco.");
+    Converse.Redirect("ko1500_010", "At last we meet, Voltra the Jackal.");
+    Converse.Redirect("ko1500_046", "That's pretty cool. And so are you, Hermit!");
+    Converse.Redirect("ko1900_160", "Take care, Voltra. \nPlease come to visit from time to time.");
+    Converse.Redirect("ko1900_170", "I have done all I can for you, Voltra. \nI will be watching you from within the Digital Dream. \nMake us proud, child.");
+
+    Converse.Redirect("ko9000_172", "Swap to Voltra");
+}
+
+Patch "Voltra Caption Replacements: Side Stories" by "Sclopeta & ButterDee"
+//
+    #lib "Converse"
+//
+{
+
+    /*Kronos Island - Side Story*/
+
+    Converse.Redirect("sb1090_020", "Y'know, I... I don't think we were ever properly introduced. I'm Voltra...");
+
+    /*Ares Island is irrelevant LMAO*/
+
+    /*Chaos Island - Side Story*/
+
+    Converse.Redirect("sb3020_010", "Voltra... do you think I can... change?");
+    Converse.Redirect("sb3040_040", "Much more than that. Voltra - it was their very essences! Their hopes, their dreams, everything that made them what they were. Do you see the correlation?");
+
+    /*Ouranos Island: The Final Horizon - Side Story*/
+
+    Converse.Redirect("sb5002_010", "What do you want? If you're looking for Voltra, she's not here.");
+    Converse.Redirect("sb5002_020", "You'd better not be up to no good just because Voltra's busy!");
+    Converse.Redirect("sb5203_010", "Don't you think I could have been more helpful to Voltra if I had my normal body back?");
+    Converse.Redirect("sb5203_030", "But there may be ways to help from Cyber Space, like how we combined our powers to turn Voltra back to normal.");
+    Converse.Redirect("sb5406_010", "While I was exploring Kronos Island with Voltra, I noticed lights would appear on the ground or on the trunks of the trees at night. What was up with that?");
+    Converse.Redirect("sb5506_010", "There's no time. Leave the enemies to Voltra and focus on finding the Emeralds.");
+    Converse.Redirect("sb5601_030", "I need to get the Emeralds and get them to Voltra right away.");
+    Converse.Redirect("sb5603_040", "But what I'm most worried about is Voltra, I don't want to let her down.");
+    Converse.Redirect("sb5605_070", "I did not expect Voltra to hack into it... But if she was able to reboot it successfully, we should repair the original robot and add it to our ranks. That is, if we can get it ready in time for our foe's appearance.");
+    Converse.Redirect("sb5701_040", "Hah, you can't rush Voltra the Jackal. I'll be back in a flash!");
+    
+}
+
+Patch "Voltra Text Replacements: Hints, Trials, Objectives, and Miscellaneous Changes" by "ButterDee"
+//
+    #lib "Converse"
+//
+{
+    /*Redirect for IslandField file: Converse.Redirect("obj_ilf_", "");
+    Standard redirect: Converse.Redirect("", "");
+    text_objective_en.pac/IslandField.cnvrs-text */
+    
+    Converse.Redirect("hud_info_miss", "man ahm dead");
+    Converse.Redirect("hud_enemy_fly1", "MR. SQUID");
+    
+    Converse.Redirect("obj_ilf_02puzzle_01detail", "The pond in front of Voltra has some kind of plug. \nAbove it, a chain is connected to a huge stopper stone. \nMaybe it'll move if something hits it with enough force.");
+
+    /*Redirect for Tips: Converse.Redirect("tip_", "");*/
+    Converse.Redirect("tip_021_PC", "When holding down <image name=\"button_right_trigger_Wh\" /> while moving, Voltra will boost in the direction she is running towards. Boosting consumes the boost meter.");
+    Converse.Redirect("tip_005", "Parrying is not contingent on timing. \nHold <image name=\"button_left_shoulder_Wh\" />+<image name=\"button_right_shoulder_Wh\" /> to Parry, and Voltra will automatically repel attacks.");
+    Converse.Redirect("tip_017", "If Voltra is thrown back by an attack, press <image name=\"button_bottom_Wh\" /> before she hits the ground. Voltra will immediately counterattack with a Recovery Smash attack.")
+    Converse.Redirect("tip_019", "Press <image name=\"button_bottom_Wh\" /> in the air to Double Jump. \nUse Double Jump to adjust Voltra's jump direction.");
+    Converse.Redirect("tip_021", "When holding down <image name=\"button_right_trigger_Wh\" /> while moving, Voltra will boost in the direction she is running towards. Boosting consumes the boost meter.");
+    Converse.Redirect("tip_023", "If you press and hold <image name=\"button_right_Wh\" /> Voltra will do a series of stomps. The third stomp is the most powerful and deals damage in a wide burst.");
+    Converse.Redirect("tip_025", "Press <image name=\"button_left_shoulder_Wh\" /> or <image name=\"button_right_shoulder_Wh\" /> while moving, to quickly step to the left or right. \nUse this to have Voltra avoid obstacles while running.");
+    Converse.Redirect("tip_026", "Press <image name=\"button_left_stick_Wh\" /> near a line of Rings. Voltra will zoom through them.");
+    Converse.Redirect("tip_027", "After a Double Jump, press and hold <image name=\"button_bottom_Wh\" /> again until landing to activate a Drop Dash and move faster for a short period of time.");
+    Converse.Redirect("tip_028", "Press <image name=\"button_right_Wh\" /> to Slide. \nThis is useful to destroy obstacles or slow down Voltra.");
+    Converse.Redirect("tip_029", "Voltra can run on some walls while climbing by holding <image name=\"button_right_trigger_Wh\" />.");
+    Converse.Redirect("tip_031", "Voltra will automatically grind on rails. She can leave the rail by jumping off it.");
+    Converse.Redirect("tip_034", "When Voltra is surrounded with sparks while in the air, use <image name=\"button_left_stick_Wh\" /> to perform an Air Trick. When an Air Trick is successful, Skill Pieces are earned.");
+    Converse.Redirect("tip_036", "GIGANTO can repel Quick Cyloops. Try one and Voltra'll be sent flying.");
+    Converse.Redirect("tip_039", "Feeling underpowered against the enemies? Try leveling up Voltra's stats at the Elder Koco and Hermit Koco. \nPrefer to focus on the story? Change the game difficulty by going into Options.");
+    Converse.Redirect("tip_040", "Evade enemy attacks by jumping, dodging, or parrying. \nWhile the target cursor is displayed, Voltra can attack with Homing Attacks and combos.");
+    Converse.Redirect("tip_044", "Repel enemies that jump into Voltra's path with Parry.");
+    Converse.Redirect("tip_045", "Use Parry to bounce back the enemy's beam attack. \nIf Voltra can get on top of the enemy, use Stomp.");
+    Converse.Redirect("tip_046", "When Voltra approaches, this enemy curls up to protect itself. Use Cyloop to break its guard and defeat it.");
+    Converse.Redirect("tip_048", "Cyloop can take this enemy down with a single blow. Wait for when it pauses after it rushes at Voltra.");
+    Converse.Redirect("tip_049", "If the enemy comes at Voltra while spinning sideways, use Parry to defeat it.");
+    Converse.Redirect("tip_053", "If Voltra gets trapped inside, use Jump Stomp to break through.");
+    Converse.Redirect("tip_054", "If Voltra is launched into the air, use Stomp to recover.");
+    Converse.Redirect("tip_056", "Each attack can be parried. If Voltra is about to be attacked, hold <image name=\"button_left_shoulder_Wh\" />+<image name=\"button_right_shoulder_Wh\" /> to parry it.");
+
+    /*MR. SQUID JUMPSCARE*/
+
+    Converse.Redirect("tip_063_Steam", "Chase down MR. SQUID to defeat him! Voltra can avoid the bullets by moving to the left or right.");
+    Converse.Redirect("tip_063", "Chase down MR. SQUID to defeat him! Voltra can avoid the bullets by moving <image name=\"button_left_stick_Wh\" /> to the left or right.");
+    Converse.Redirect("tip_064", "When MR. SQUID raises his barrier, surround it with a Cyloop to break it.");
+    Converse.Redirect("tip_065", "If MR. SQUID swings his arm, use Dodge or Parry to bounce back!");
+
+    /*MR. SQUID JUMPSCARE over.*/
+
+    Converse.Redirect("tip_066", "Surround the pedestal connected to GHOST to take them down before Voltra runs out of Rings!");
+    Converse.Redirect("tip_067", "Get to the top of ASURA via the arms and body. When Voltra touches the blue circle of light, she can run up faster.");
+    Converse.Redirect("tip_068", "When Voltra holds the tail, the enemy will act wildly, but by tilting <image name=\"button_left_stick_Wh\" /> as it moves, Voltra will be able to keep her balance.");
+    Converse.Redirect("tip_069", "If Voltra is pulled in while the burners are out, use Homing Attack to avoid bumping into it.");
+    Converse.Redirect("tip_070", "Use the ropes to push SUMO to the charged area. \nThe more bounces Voltra gets, the more force in her push.");
+    Converse.Redirect("tip_072", "After threatening Voltra with a bomb, the FORTRESS will flee.");
+    Converse.Redirect("tip_073", "When KNIGHT's shield is up, Voltra can circle around with <image name=\"button_right_shoulder_Wh\" /> to land direct hits.");
+    Converse.Redirect("tip_076", "When battling the Titan, sometimes it will counterattack. \nParry this attack to create more opportunities for Voltra.");
+    Converse.Redirect("tip_077", "There are certain surfaces on GIGANTO that allow Voltra to speed up. \nUse these to quickly climb up.");
+    Converse.Redirect("tip_078", "If Voltra uses Parry instead of Dodging against GIGANTO's attacks, she can unleash a powerful counterattack.");
+    Converse.Redirect("tip_086", "Like GIGANTO, SUPREME can repel Quick Cyloops. Try one and Voltra'll be sent flying.");
+    Converse.Redirect("tip_089", "The Koco will run away from Voltra. \nCarefully consider an approach to successfully lead them to the goal!");
+    Converse.Redirect("tip_090", "Mow lots of grass at once to earn more points. \nTry to enclose as much area as possible in one Cyloop.");
+    Converse.Redirect("tip_092", "If the TOWER is going too fast for Voltra to pass under it, try to carry only a few Koco at a time!");
+    Converse.Redirect("tip_094", "Be careful not to let the containers or Voltra fall into the lava! \nSome footholds will collapse if Voltra steps on them.");
+    Converse.Redirect("tip_100", "In order to talk to Amy or the others, Voltra must stabilize their frequency. \nExplore the islands and collect Memory Tokens to do so.");
+    Converse.Redirect("tip_105", "After completing all Challenges on an island, Voltra will be able to fast travel to any Portal on the island.");
+    Converse.Redirect("tip_109", "Elder Koco is a round, large Koco. If lost Koco are returned to him, he will raise Voltra's Ring capacity or speed level in return.");
+    Converse.Redirect("tip_110", "Hermit Koco is a large, tall Koco. \nHe can increase Voltra's attack and defense with the seeds obtained on the island and also can redistribute the upgrades given by the Elder Koco.");
+    Converse.Redirect("tip_112", "When exploring and completing Challenges around the island, Voltra can get Red Seeds of Power and Blue Seeds of Defense. \nVisit Hermit Koco to use them to improve Voltra's stats.");
+    Converse.Redirect("tip_115", "As Voltra roams around the island, there will be times when she meets other characters. \nTalk with them and hear their stories.");
+    Converse.Redirect("tip_121", "Voltra cannot enter Portals or talk to NPCs during battle. Defeat the enemies around her first.");
+    Converse.Redirect("tip_124", "Voltra is able to climb up black walls. \nShe can also run up them while <image name=\"button_right_trigger_Wh\" /> is pressed.");
+    Converse.Redirect("tip_126", "If Voltra boosts by pressing <image name=\"button_right_trigger_Wh\" /> with the maximum number of Rings, her speed will greatly increase.");
+    Converse.Redirect("tip_128", "Give Hermit Koco red fruit to raise Voltra's attack power, and blue fruit to raise Voltra's defense power.");
+    Converse.Redirect("tip_129", "Find and bring Koco to the Elder Koco. He will be able to raise Voltra's top speed and max Ring capacity. Elder Koco can also reset the upgrades.");
+    Converse.Redirect("tip_130", "Voltra's outfit can be changed by going to \nTitle Screen &gt; Extras &gt; Voltra Outfits");
+    Converse.Redirect("tip_131", "Access the Photo Mode from the Pause menu. Freely change the camera placement and angle as Voltra explores the islands!");
+    Converse.Redirect("tip_139", "Extreme difficulty can only be chosen when starting a new game. At this level, Voltra's stats will no longer increase and the enemies will be substantially stronger, in addition to Voltra being defeated in one hit, regardless of rings.");
+    Converse.Redirect("tip_140", "Holding <image name=\"button_right_Wh\" /> on the ground and pressing <image name=\"button_left_trigger_Wh\" /> will cause Voltra to spin. Release <image name=\"button_right_Wh\" /> to unleash the Spin Dash. Using Spin Dash will use the boost gauge.");
+    Converse.Redirect("tip_147", "If you select \"New Game+\" on the Title Screen and load your game clear data, Voltra's skills and stats will carry over.");
+
+    /*The Final Horizon: Tips*/
+    
+    Converse.Redirect("tip_148", "Parrying normally will not work on THE END. Something more powerful than the parry is needed...");
+    Converse.Redirect("tip_149", "Perfect Parry will create an opening for attacks, in addition to swatting away the dark energy orbs.");
+    Converse.Redirect("tip_150", "Use <image name=\"button_left_shoulder_Wh\" /> or <image name=\"button_right_shoulder_Wh\" /> to swerve around THE END. The Quick Cyloop is useful.");
+    Converse.Redirect("tip_151", "THE END replenishes its energy from the fake moon. The connection must be severed by looping around with <image name=\"button_left_shoulder_Wh\" /> or <image name=\"button_right_shoulder_Wh\" />.");
+    Converse.Redirect("tip_152", "Perfect Parry is effective against THE END. Use it against various attacks.");
+    Converse.Redirect("tip_153", "THE END can't be defeated through dealing damage alone. Tear off the cable by dodging with <image name=\"button_left_shoulder_Wh\" /> or <image name=\"button_right_shoulder_Wh\" /> and unleash a Quick Cyloop on the cable to stop the energy transfer!");
+    Converse.Redirect("tip_154", "THE END will sometimes target the Cyber Shield around Voltra's friends. Block the attack by going behind THE END while it swings its arms by using <image name=\"button_left_shoulder_Wh\" /> or <image name=\"button_right_shoulder_Wh\" /> and parry with <image name=\"button_left_shoulder_Wh\" />+<image name=\"button_right_shoulder_Wh\" /> to protect the Cyber Shield!");
+
+    /*Back to platform exclusive tips.*/
+
+    Converse.Redirect("tip_026_Steam", "Press and hold <image name=\"s_button_lightdash\" /> near a line of Rings. Voltra will zoom through them.");
+    Converse.Redirect("tip_025_Steam", "Press <image name=\"s_button_qsleft_Wh\" /> or <image name=\"s_button_qsright_Wh\" /> while moving, to quickly step to the left or right. \nUse this to have Voltra avoid obstacles while running.");
+    Converse.Redirect("tip_005_Steam", "Parrying is not contingent on timing. \nHold <image name=\"s_button_qsleft_Wh\" />+<image name=\"s_button_qsright_Wh\" /> to stay in Parry, and Voltra will automatically repel attacks.");
+    Converse.Redirect("tip_056_Steam", "Each attack can be parried. If Voltra is about to be attacked, hold <image name=\"s_button_qsleft_Wh\" />+<image name=\"s_button_qsright_Wh\" /> to parry it.");
+
+
+
+    /*Tutorial Mission: Converse.Redirect("tu1000_", ""); */
+
+    Converse.Redirect("tu1000_035", "When enemies are defeated, they drop various items such as \"Skill Pieces\" and \"Seeds.\" \nGather enough Skill Pieces and they will turn into \"Skill Points,\" as shown in the lower right corner of the screen. These can then be used to learn new \"Skills\" to enhance Voltra.");
+    Converse.Redirect("tu1000_085", "Voltra's \"Cyloop\" skill can now be learned! \n \nUsing the Skill Points that have been accumulated, as shown in the lower right of the screen, go to the Skills menu to unlock it.");
+    Converse.Redirect("tu1000_190", "Gather Koco to strengthen Voltra");
+    Converse.Redirect("tu1000_195", "These creatures are called the \"Koco.\" \nThey seem to be lost. \nLocate their Elder and return them to him. \nThe Elder will surely offer a reward for their return, \nwhether increasing Voltra's speed or Ring capacity.");
+    Converse.Redirect("tu1000_225", "Voltra can climb up certain walls. \nManeuver with <image name=\"button_left_stick\" />, and she can Wall Run by holding <image name=\"button_right_trigger\" /> while climbing.");
+    Converse.Redirect("tu1000_255", "From here on, Voltra is free to explore the island and gather Chaos Emeralds. \n \nTry solving nearby Challenges to avoid getting lost. \nThis will unlock more of the map and show more paths forward in Voltra's journey.");
+    Converse.Redirect("tu1000_275", "Voltra cannot match GIGANTO's power... yet. \nReach GIGANTO's head to supercharge...");
+    Converse.Redirect("tu1000_280", "-The Showdown- \nSupercharged Voltra vs. GIGANTO!");
+    Converse.Redirect("tu1000_285", "Supercharged Voltra doesn't take damage, but Rings will be lost as the battle goes on. Because of the time limit, the key to this battle is \"to efficiently deal heavy damage.\" \nUsing Voltra's knowledge and techniques, defeat GIGANTO!");
+    Converse.Redirect("tu1000_295", "Choose where to cast the line with <image name=\"button_left_stick\" />, then press <image name=\"button_bottom\" /> to cast. \nWhen the float sinks, pull it with <image name=\"button_bottom\" />. \nRed circles will then appear as the fish takes the bait. \nPress <image name=\"button_bottom\" /> again when the white circles are within the red circles. \nIf successful, Voltra will catch a fish and earn Treasure Tokens.");
+    Converse.Redirect("tu1000_425", "Voltra is not yet ready to defeat WYVERN. \nTo supercharge Voltra and take down WYVERN, \nget to higher ground and reach it using the Homing Attack.");
+    Converse.Redirect("tu1000_430", "-Doomsday Zone Redux- \nSupercharged Voltra vs. WYVERN!");
+    Converse.Redirect("tu1000_435", "Supercharged Voltra is immune to damage, \nbut Rings will be lost over time to stay in this form. \n \nBoost through the air to quickly reach WYVERN, \nand parry its attacks to defeat it!");
+    Converse.Redirect("tu1000_455", "When an enemy is about to attack, a visual effect will appear running between Voltra and the enemy.");
+    Converse.Redirect("tu1000_465", "If Voltra boosts with the maximum number of Rings, she can run at even higher speeds while emitting lightning around her. \nWhen the Ring count is reduced, it will revert back to a normal boost.");
+    Converse.Redirect("tu1000_475", "As Voltra solves the mysteries on the island, locations close to each other will be connected by ancient rails, making travel more convenient.");
+    Converse.Redirect("tu1000_515", "Get Treasure Tokens from Big by catching fish. Once Voltra has accumulated a good amount of tokens, head to \"Trade Tokens\" to trade them for items that will aid in her adventure. \n \nA Gold Card is an item that can be exchanged for one of the items on the list. Think carefully about which item will be the most useful.");
+    Converse.Redirect("tu1000_535", "A notification may appear when Voltra is near something new. \nPress <image name=\"button_crosskey_down\" /> while the notification is displayed to practice the action in the training simulator or get a hint about what Voltra is about to encounter. \n \n Press <image name=\"button_crosskey_down\" /> to go to the training simulator now.");
+    Converse.Redirect("tu1000_545", "Voltra must supercharge to stand a chance against KNIGHT. \nJump over or parry the stone spikes to reach for KNIGHT's head and gain the upper hand.");
+    Converse.Redirect("tu1000_550", "-The Duel- \n Supercharged Voltra vs. KNIGHT!");
+    Converse.Redirect("tu1000_555", "Remember that Supercharged Voltra is invincible against attacks, but Rings will be consumed as the battle continues. \n \nKNIGHT attacks with a long sword. Parry this and look for a chance to attack.");
+    Converse.Redirect("tu1000_560", "-The Final Encounter..?- \nSupercharged Voltra vs. SUPREME!");
+    Converse.Redirect("tu1000_565", "Keep an eye on Voltra's remaining Rings, and attack the floating Bits around SUPREME first. \n \nUse evasion and parry to avoid attacks from the main body and to create openings for counter attacks.");
+    Converse.Redirect("tu1000_590", "-Discount Ikaruga- \nSupercharged Voltra and Sage vs. THE END!");
+    Converse.Redirect("tu1000_595_Steam", "Work with Sage to defeat THE END. \nMove: <image name=\"button_left_stick\" /> Light Shot: <image name=\"s_button_qsleft\" /> Dark Shot: <image name=\"s_button_qsright\" /> \nCounter THE END's attacks by matching the colors of each shot. \nThe laser attack meter will also increase with each successful counter. \nWhen the meter is full, fire a powerful homing laser by pressing <image name=\"button_right_trigger\" />. \nGo play The Final Horizon for the true ending.");
+    Converse.Redirect("tu1000_595", "Work with Sage to defeat THE END. \nMove: <image name=\"button_left_stick\" /> Light Shot: <image name=\"button_left_shoulder\" /> Dark Shot: <image name=\"button_right_shoulder\" /> \nCounter THE END's attacks by matching the colors of each shot. \nThe laser attack meter will also increase with each successful counter. \nWhen the meter is full, fire a powerful homing laser by pressing <image name=\"button_right_trigger\" />. \nGo play The Final Horizon for the true ending");
+    Converse.Redirect("tu1000_615", "Locate the Red Seeds of Power and Blue Seeds of Defense strewn about the island. \nBring them to the Hermit Koco to raise Voltra's attack and defense.");
+    Converse.Redirect("tu1000_665", "Find and bring Koco to the Elder Koco. He will be able to raise Voltra's top speed and maximum Ring capacity. Go to the Hermit Koco to change how these upgrades are set.");
+    Converse.Redirect("tu1000_675", "Give the Hermit Koco the Red Seeds of Power to raise Voltra's attack, and the Blue Seeds of Defense to raise Voltra's defense.");
+    Converse.Redirect("tu1000_705", "While fishing, Voltra may come across Scrolls. Elder Koco and Hermit Koco each have their own Scrolls, and using these Scrolls will unlock the fast travel option to the respective Koco. \nAccess fast travel by toggling the icon in the upper right corner.");
+    Converse.Redirect("tu1000_715", "Once every few nights, meteors will fall like rain. When this happens, items and enemies in the open field will be resurrected. \nPicking up the fallen star pieces will allow Voltra to use the Slot Machine. \nPress <image name=\"button_crosskey_up\" /> to stop a slot \nand get Purple Coins when the patterns line up!");
+    Converse.Redirect("tu5000_015_Steam", "Use <image name=\"button_left_stick\" /> to move around. \nIf using a controller with an analog stick, Voltra will walk \nor run, depending on how much the analog stick is tilted. \n \nPressing <image name=\"button_right_trigger\" /> will have Voltra boost in the same \ndirection she is moving.");
+    Converse.Redirect("tu5000_015", "Use <image name=\"button_left_stick\" /> to move around. \nVoltra will walk or run, depending on how much <image name=\"button_left_stick\" /> is moved. \n \nPressing <image name=\"button_right_trigger\" /> will have Voltra boost in the same direction as <image name=\"button_left_stick\" />. ");
+    Converse.Redirect("tu5000_025", "Press <image name=\"button_bottom\" /> to jump. \nJump over obstacles that prevent Voltra from reaching the goal. \n \nPressing <image name=\"button_bottom\" /> in midair will cause Voltra to Double Jump. \nDouble Jump is useful to adjust where Voltra will land.");
+
+
+    /*DLC & The Final Horizon: Tutorials
+    Standard redirect: Converse.Redirect("", ""); */
+
+    Converse.Redirect("tu1000dlc_095", "Extreme difficulty can only be chosen when starting a new game. At this level, Voltra's stats will no longer increase and the enemies will be substantially stronger, in addition to Voltra being defeated in one hit, regardless of rings. The difficulty level cannot be changed mid-game.");
+    Converse.Redirect("tu1000dlc_133", "New Game+ will unlock once the game has been cleared. In New Game+, Voltra's skills and stats will carry over. However, items will not carry over.");
+    Converse.Redirect("tu1000dlc_135", "New Game+ has been unlocked. \nIf you select \"New Game+\" on the Title Screen and load your game clear data, Voltra's skills and stats will carry over. However, items will not carry over.");
+    Converse.Redirect("tu1000dlc_175", "By completing all of the islands, the \"Frontier Elite\" outfit is now available. \nHead to Extras &gt; Voltra Outfits to equip it.");
+    Converse.Redirect("tu1000dlc_260", "-Final Battle-");
+    Converse.Redirect("tu1000dlc_265", "The trials are complete. \nThe final titan has appeared.");
+    Converse.Redirect("tu1000dlc_270", "Hysteria Voltra has awoken. RUN.");
+    Converse.Redirect("tu1000dlc_275", "Voltra's latent rage has been unleashed from consecutive failures of Snackpigeon's Trial. \nHer parry has become perfect, being able to deflect anything, but it requires exact timing. \nNow go tear off the limbs of THE END!");
+    Converse.Redirect("tu1000dlc_298", "Voltra will be playable later. Feel free to progress through the game and return to Voltra later to complete any unfinished tasks.");
+    
+    
+    /*Misc. Text*/
+
+    Converse.Redirect("notice_save_battle", "Saving/loading files is not available when Voltra is in battle, solving puzzles, playing mini-games, and in scenes where Voltra is not in control.");
+    Converse.Redirect("extra_item_1_choice_7", "Inugami Korone Collaboration Sonic Gloves &amp; Shoes");
+    Converse.Redirect("extra_item_1", "Voltra Outfits");
+    Converse.Redirect("extra_item_7", "Voltra Emote with Koco");
+    Converse.Redirect("extra_item_7_mtips", "Additional idle animations for Voltra");
+    Converse.Redirect("extra_item_1_mtips", "Change Voltra's outfits");
+    Converse.Redirect("skill_05_explain", "Launch a powerful attack as Voltra ascends.");
+}
