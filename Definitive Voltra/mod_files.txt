@@ -64,6 +64,7 @@ add Voltra_BloodOn/raw/character/supersonic2.pac
 add VoltraCode.hmm
 add config.json
 add DiscordFrontiers.json
+add DiscordFrontiers.ini
 add VoltraCredits.txt
 add changelog.md
 add README.md

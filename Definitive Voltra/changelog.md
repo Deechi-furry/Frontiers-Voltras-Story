@@ -1,3 +1,7 @@
+## Definitive Voltra v0.4.1
+
+- Support for Discord Frontiers has been enhanced further! Images for the title screen, Voltra, Supercharged Voltra, and Hysteria Voltra have been added!
+
 ## Definitive Voltra v0.4
 
 - Added a work in progress eyelid option that is VERY broken
