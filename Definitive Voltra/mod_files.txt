@@ -1,3 +1,22 @@
+add bg_clouds/raw/ui/ui_gamemodetitle.pac
+add bg_clouds/raw/ui/ui_gamemodetitle_en.pac
+add bg_clouds_no-light-filter/raw/ui/ui_gamemodetitle.pac
+add bg_clouds_no-light-filter/raw/ui/ui_gamemodetitle_en.pac
+add bg_finale/raw/ui/ui_gamemodetitle.pac
+add bg_finale/raw/ui/ui_gamemodetitle_en.pac
+add bg_hv/raw/ui/ui_gamemodetitle.pac
+add bg_hv/raw/ui/ui_gamemodetitle_en.pac
+add bg_off/raw/ui/ui_gamemodetitle_en.pac
+add bg_scv/raw/ui/ui_gamemodetitle.pac
+add bg_scv/raw/ui/ui_gamemodetitle_en.pac
+add bg_scv_sunset/raw/ui/ui_gamemodetitle.pac
+add bg_scv_sunset/raw/ui/ui_gamemodetitle_en.pac
+add bg_towerkoco/raw/ui/ui_gamemodetitle.pac
+add bg_towerkoco/raw/ui/ui_gamemodetitle_en.pac
+add bg_vs_knight/raw/ui/ui_gamemodetitle.pac
+add bg_vs_knight/raw/ui/ui_gamemodetitle_en.pac
+add bg_vs_wyvern/raw/ui/ui_gamemodetitle.pac
+add bg_vs_wyvern/raw/ui/ui_gamemodetitle_en.pac
 add BossCutscene_BOI/raw/event/scene/bo1xxx.pac
 add BossCutscene_BOI/raw/event/scene/bo2xxx.pac
 add BossCutscene_BOI/raw/event/scene/bo3xxx.pac
@@ -30,11 +49,13 @@ add Chaos Polarity Support/misc.hmm
 add Chaos Polarity Support/misc_original.hmm.bak
 add Chaos Polarity Support/mod.ini
 add Chaos Polarity Support/mod_original.ini.bak
+add eyelids_off/raw/character/soniccyber.pac
+add eyelids_on/raw/character/soniccyber.pac
 add main/raw/EffectCommon.pac
 add main/raw/EventCommon.pac
 add main/raw/character/kodamaexpert.pac
 add main/raw/character/playercommon.pac
-add main/raw/character/sonic.pac
+delete main/raw/character/sonic.pac
 add main/raw/character/soniccyber.pac
 add main/raw/character/supersonic.pac
 add main/raw/sound/voice_rangers_sonic_en.acb
