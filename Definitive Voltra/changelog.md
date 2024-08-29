@@ -1,3 +1,11 @@
+## Definitive Voltra v0.4.2
+
+- Small patch that removes "The Sonic Virus" from part of The Final Horizon's opening.
+- For context; During the live stream for the beta of the Supercharged Update, Voltra suddenly turned into Sonic, because of the model being stored inside of the cutscene.
+- This has been dubbed "The Sonic Virus" by hweilla.
+
+- Make sure to load this mod above Realtime Cutscenes Definitive Edition, or The Sonic Virus will return!
+
 ## Definitive Voltra v0.4.1
 
 - Support for Discord Frontiers has been enhanced further! Images for the title screen, Voltra, Supercharged Voltra, and Hysteria Voltra have been added!

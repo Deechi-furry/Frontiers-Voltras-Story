@@ -59,6 +59,7 @@ delete main/raw/character/sonic.pac
 add main/raw/character/soniccyber.pac
 add main/raw/character/supersonic.pac
 add main/raw/sound/voice_rangers_sonic_en.acb
+add main/raw/event/scene/ev1520.pac
 add Voltra_BloodOff/raw/character/supersonic2.pac
 add Voltra_BloodOn/raw/character/supersonic2.pac
 add VoltraCode.hmm
